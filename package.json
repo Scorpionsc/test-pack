@@ -1,0 +1,30 @@
+{
+  "name": "test-pack155544",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc && echo 'Finished building NPM package'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/Scorpionsc/test-pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scorpionsc/test-pack/issues"
+  },
+  "homepage": "https://github.com/Scorpionsc/test-pack#readme",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "react": "^15.0.0-0 || ^16.0.0-0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.6",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "typescript": "^3.6.4"
+  }
+}
